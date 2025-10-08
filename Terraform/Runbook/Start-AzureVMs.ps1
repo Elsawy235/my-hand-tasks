@@ -3,7 +3,7 @@ Write-Output "Logging in using Managed Identity"
 Connect-AzAccount -Identity
 
 # Set the context using the Subscription ID
-$subscriptionId = "4f3d1918-fd1b-43c1-80c8-8a9d24ee0136"  # Subscription ID
+$subscriptionId = ""  # Subscription ID
 Set-AzContext -SubscriptionId $subscriptionId
 
 # Resource group and list of VMs to keep
